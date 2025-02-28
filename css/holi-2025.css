@@ -1,0 +1,73 @@
+
+.shop-by-category-sec {background: url('../images/category.webp') 0 -20px no-repeat!important; background-size: 100%!important; height: 600px}
+.popular-sec {
+    background: url(../images/new-arrival.webp) no-repeat !important;
+    background-size: 100% !important;
+    padding: 75px 0 100px !important;
+ }
+
+.footer-new {background: url(../images/footer.webp) #f8f5ef 101% 101% no-repeat; position: relative; background-size: 100%}
+ 
+.download-sec .box { background: url(../images/download.webp)  50% 0 no-repeat; height: 600px }
+.download-sec .box img{display: none;}
+.download-sec .box a img{display: inline-block;}
+.download-sec .box p {font-size: 20px;}
+.download-sec .box h3 {font-size: 40px; margin-bottom: 30px; margin-top: 10px}  
+/*.shop-by-category-sec h2,.shop-by-category-sec p, .shop-by-category-sec h3,.popular-sec p, .popular-sec h3,.download-sec .box p,.download-sec .box h3, .footer-new .searches h5, .footer-new .searches a, .footer-new .searches p, .footer-new h4, .footer-widget ul li a{color: #fff!important;}*/
+/*.shop-by-category-sec h2:after{background: #fff;
+}
+ */
+
+.home-banner-area .content h1 span {
+    color: #da1d18;
+}
+ body {overflow-x: hidden!important;}
+
+ 
+
+@media (max-width:640px){
+/*    .curated-collection-sec h2 {color: #fff}*/
+    .shop-by-category-sec .all-cats {
+        color: #ff9898;}
+        .curated-collection-sec {
+         background: url(../images/new-arrival.webp) no-repeat !important;
+        padding: 45px 0 !important;
+    }
+    .home-banner-area {
+       background-position: 0% 0 !important;
+        background-size: cover !important;
+        height: 99vh;
+    }
+    .shop-by-category-sec {
+        background-position:  50% 50%   !important;
+        background-size: cover !important;
+        height: max-content;
+    }
+    .home-banner-area .content {background: #fcfcfcba}
+    
+    .download-sec .box {
+
+         background-position:   50% 0  ;  
+        height: 450px;
+        background-size:150% ;
+        background-position: 50% 0;
+        padding-top: 20px;
+         
+    }
+    .download-sec .box p {
+        font-size: 14px;
+    }
+    .download-sec .box h3 {
+        font-size: 24px; margin-bottom: 15px; margin-top: 0px;
+    }
+    .footer-new {
+ 
+  background-position: 50% 50%;
+        background-size: cover;
+         background-color: #ffd0d2 ;
+    }
+    .footer-new::after {background-size: 250px;
+        width: 225px;
+        right: -21px;
+        height: 250px;}
+}
